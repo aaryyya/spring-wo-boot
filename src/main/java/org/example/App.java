@@ -1,6 +1,6 @@
 package org.example;
 
-import jdk.jpackage.internal.model.Application;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,7 +15,9 @@ public class App
 //        Dev obj=new Dev();
 //        obj.build();
         ApplicationContext context =new ClassPathXmlApplicationContext("spring.xml");
-        Dev obj=context.getBean(Dev.class);
-        System.out.println( "Hello World!" );
+//        Dev obj=context.getBean(Dev.class);
+//        Dev obj=(Dev)context.getBean("dev");
+//        System.out.println( "Hello World!" );
+//        obj.build();
     }
 }
