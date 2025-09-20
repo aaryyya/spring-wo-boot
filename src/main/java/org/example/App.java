@@ -19,8 +19,8 @@ public class App
 
         Dev obj=(Dev)context.getBean("dev");
 //        obj.setAge(15);
-        System.out.println(obj.getAge());
+//        System.out.println(obj.getAge());
         System.out.println( "Hello World!" );
-//        obj.build();
+        obj.build();
     }
 }
